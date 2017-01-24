@@ -10,9 +10,6 @@ Testing of Softpot Membrane Potentiometer
 5. Top layer closes the bottom layer when actuated, thus producing a reading. 
 6. It be used as an accurate positional indicator for CNC head positioning, variable user input, straight user input and many other applications.
 
-<img src="Screen Shot 2017-01-23 at 9.38.51 PM" alt="Drawing" style="height: 400px;"/>
-<img src="Screen Shot 2017-01-23 at 9.39.06 PM" alt="Drawing" style="height: 400px;"/>
-
 ### Features of SoftPot
 
 1. Lower cost than Mechanical Potentiometers
