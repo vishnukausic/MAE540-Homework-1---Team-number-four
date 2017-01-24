@@ -17,5 +17,8 @@ Refrence https://ubiquitousmusic.wikispaces.com/SoftPot+Membrane+Potentiometer
  3. Small [form factor][1], and 
  4. Easy installation
 
+So combining the applications of a potentiometer and the advantages will make the sensor suitable for medical applications where normal sensors will malfunction due to the harsh conditions like radiation.
+For more information about the sensor click [here][2].
 
 [1]: https://www.google.com/webhp?sourceid=chrome-instant&ion=1&espv=2&ie=UTF-8#q=form+factor
+[2]: https://www.sparkfun.com/datasheets/Sensors/Flex/SoftPot.pdf
