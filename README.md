@@ -14,5 +14,8 @@ Refrence https://ubiquitousmusic.wikispaces.com/SoftPot+Membrane+Potentiometer
  
  1. Lower cost than Mechanical potentiometer
  2. Sealed for harsh environment
- 3. Small form factor
+ 3. Small [form factor][1],(click on form factor for defenition) and 
  4. Easy installation
+
+
+[1]: https://www.google.com/webhp?sourceid=chrome-instant&ion=1&espv=2&ie=UTF-8#q=form+factor
