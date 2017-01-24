@@ -33,30 +33,33 @@ Testing of Softpot Membrane Potentiometer
 ## Adruino Code and Blynk Setup
 
 Below is the code we put in adruino to get pin 5 to "HIGH".
-{% highlight C linenos %}
-  #include <Wire.h>
-  #include <ESP8266WiFi.h>
-  #include <BlynkSimpleEsp8266.h>
 
-  // You should get Auth Token in the Blynk App.
-  // Go to the Project Settings (nut icon).
-  char auth[] = "87fd9561fc854da99451724d1bde9d40"; // ***Type in your Blynk Token
-  
-  // Your WiFi credentials.
-  // Set password to "" for open networks.
-  char ssid[] = "Fawzan's iPhone";
-  char pass[] = "12345678";
-  
-  void setup()
-  {
-    Blynk.begin(auth, ssid, pass);
-  }
-  
-  void loop()
-  {
-    Blynk.run();
-  }
-  {% endhighlight %}
+{% highlight C linenos %}
+	  #include <Wire.h>
+	  #include <ESP8266WiFi.h>
+	  #include <BlynkSimpleEsp8266.h>
+	  
+	  // You should get Auth Token in the Blynk App.
+	  // Go to the Project Settings (nut icon).
+	  char auth[] = "87fd9561fc854da99451724d1bde9d40"; 
+	  
+	  // Your WiFi credentials.
+	  // Set password to "" for open networks.
+	  char ssid[] = "Fawzan's iPhone"; 
+	  char pass[] = "12345678"; 
+	  
+	  void setup()
+	  {
+	    Blynk.begin(auth, ssid, pass);
+	  }
+	  
+	  void loop()
+
+	  {
+	    Blynk.run();
+	  }
+{% endhighlight %}
+
   
 In Blynk, we created a new widget called "Gauge" and gave input as analog ADC0, this is shown in the pictures below.
 
