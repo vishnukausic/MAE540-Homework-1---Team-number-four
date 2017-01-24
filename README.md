@@ -9,3 +9,10 @@ A basic potentiometer converts mechanical displacement into electrical energy, a
 <img src="https://ubiquitousmusic.wikispaces.com/file/view/softpotbent.png/381391302/softpotbent.png" style="height: 400px;"/>
 
 Refrence https://ubiquitousmusic.wikispaces.com/SoftPot+Membrane+Potentiometer
+ 
+ The Softpot has several advantages like-
+ 
+ 1. Lower cost than Mechanical potentiometer
+ 2. Sealed for harsh environment
+ 3. Small form factor
+ 4. Easy installation
