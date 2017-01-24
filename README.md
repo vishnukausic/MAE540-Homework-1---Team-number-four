@@ -16,7 +16,7 @@ Testing of Softpot Membrane Potentiometer
 2. Sealed for harsh environments
 3. Polyester substrate
 4. Low set-up costs with versatility of custom design. 
-5. Small form factor.
+5. Small [form factor][1].
 6. We can combine multiple SoftPot on the same control panel.
 
 ### Specifications of SoftPot
@@ -25,3 +25,7 @@ Testing of Softpot Membrane Potentiometer
 2. Operating Temperature Range : -40°C to 50°C
 3. Resistance tolerance: ± 20%
 4. Resistance (ohms) : 10K
+
+
+
+[1]: https://www.google.com/webhp?sourceid=chrome-instant&ion=1&espv=2&ie=UTF-8#q=form+factor
