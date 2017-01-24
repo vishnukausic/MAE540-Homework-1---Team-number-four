@@ -14,7 +14,7 @@ Refrence https://ubiquitousmusic.wikispaces.com/SoftPot+Membrane+Potentiometer
 Combining the applications of a potentiometer and the advantages like small size, less cost will make the sensor suitable for medical applications where normal sensors will malfunction due to the harsh conditions like radiation.
 For more information about the sensor click [here][2].
 
-## Introduction to the SoftPot Membrane Potentiometer
+## INTRODUCTION TO THE SOFTPOT MEMBRANE POTENTIOMETER
 
 1. The SoftPot membrane potentiometer acts as an infinitely variable analog voltage divider. 
 2. SoftPot Membrane Potentiometer is a very thin variable potentiometer.
@@ -39,8 +39,22 @@ For more information about the sensor click [here][2].
 3. Resistance tolerance: ± 20%
 4. Resistance (ohms) : 10K
 
+## SCHEMATIC OF THE HOOKUP
 
-## Experiment and discussion:
+Below is the Schematic diagram of the circuit which connects the softpot membrane potentiometer to the adruino ESP8266:
+<img src="http://bildr.org/blog/wp-content/uploads/2012/11/softpot-Straight-arduino.png" style="height: 400px;"/>
+
+Below is the Softpot membrane potentiometer that we used in the experiment:
+<img src="https://i.imgsafe.org/6ea086f44b.jpg" style="height: 400px;"/>
+
+There are 3 pins on softpot. Pin 1 which is the one with the arrow refers to ground, pin 2 refers to sensor and pin 3 refers to power. Pin 1 was connected to the ground GND on adruino, pin 2 is connected to ADC, and pin 3 is connected to 3.3v.
+
+Below is the pictures after the connections has been made:
+<img src="https://i.imgsafe.org/6e6ee1e6a6.jpg" style="height: 400px;"/>
+<img src="https://i.imgsafe.org/6e7261b836.jpg" style="height: 400px;"/>
+
+## EXPERIMENT AND DISCUSSION:
+
 Experiment: We did a basic study of various pins in the ‘SparkFun ESP8266 Thing board’. There were 3 connections for softpot: pin 1 is ground, pin 2 is sensor (on which the resistance change is measured) pin 3 is power. We connected the ESP8266 on the breadboard and and made the necessary connections to the softpot. The ADC was connected to Pin 2 of softpot and pin 5 on sparkfun connected to pin 3 of softpot via a resistor of 10K ohms. Then the ground was connected to pin1. We used the pin 5 actuation code that was tested in the class. This will act as a power source. We burnt the same code that was tested in class and actuated the button on blynk. Then turned the button on. We used the gauge widget to showcase the sensing and gave a delay of 250 milliseconds on GP4. Then we did the experiment by moving an object on top of the sensor to see the variation in the gauge. The photo describes the variation in object position over the sensor and gauge reading.
 Discussion: the sensor worked fine having a liner sensitivity. To understand the sensor more, we experimented with circuit adding resistor in parallel. When no resistor is added, the sensor works in its full range linearly. But if we want to make it active in only first half of the 50mm length we added a 10k ohm and then tested. The result was as expected. The gauge was only working for the first half of the sensor and remaining was on high. And further we added few more resistors in parallel to experiment more.
 
