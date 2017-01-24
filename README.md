@@ -38,6 +38,8 @@ For more information about the sensor click [here][2].
 2. Operating Temperature Range : -40°C to 50°C
 3. Resistance tolerance: ± 20%
 4. Resistance (ohms) : 10K
+<img src="http://imgur.com/a/80ho6" style="height: 400px;"/>
+
 
 
 
