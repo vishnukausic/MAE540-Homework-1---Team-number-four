@@ -46,6 +46,7 @@ Below is the Schematic diagram of the circuit which connects the softpot membran
 <img src="http://bildr.org/blog/wp-content/uploads/2012/11/softpot-Straight-arduino.png"  width="500" height="400"/>
 
 Reference http://bildr.org/2012/11/touch-sliders-with-a-softpot-arduino/
+
 Note that AO for Adriuno UNO is ADC for sparkfun esp8266 thing
 
 Below is the Softpot membrane potentiometer that we used in the experiment:
