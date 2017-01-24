@@ -63,7 +63,7 @@ Below is the pictures after the connections has been made:
 
 Below is the code we put in adruino to get pin 5 to "HIGH".
 
-{% highlight C linenos %}
+
 	  #include <Wire.h>
 	  #include <ESP8266WiFi.h>
 	  #include <BlynkSimpleEsp8266.h>
@@ -87,13 +87,13 @@ Below is the code we put in adruino to get pin 5 to "HIGH".
 	  {
 	    Blynk.run();
 	  }
-{% endhighlight %}
+
 
   
 In Blynk, we created a new widget called "Gauge" and gave input as analog ADC0, this is shown in the pictures below.
 
-<img src="https://i.imgsafe.org/6f2acd8992.png"  width="300" height="300"/>
-<img src="https://i.imgsafe.org/6f2ad54359.png"  width="300" height="300"/>
+<img src="https://i.imgsafe.org/6f2acd8992.png"  width="300" height="500"/>
+<img src="https://i.imgsafe.org/6f2ad54359.png"  width="300" height="500"/>
 
 ## EXPERIMENT AND DISCUSSION:
 
