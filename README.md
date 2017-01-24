@@ -18,7 +18,7 @@ For more information about the sensor click [here][2].
 
 1. The SoftPot membrane potentiometer acts as an infinitely variable analog voltage divider. 
 2. SoftPot Membrane Potentiometer is a very thin variable potentiometer.
-3. We can vary the resistance linearly from 100 ohms to 10,000 ohms by pressing down on the various parts of the strip, allowing the user accurately calculate the relative position on the strip.
+3. We can vary the resistance linearly from 100 ohms to 10,000 ohms by pressing down the strip at different locations along the length using fingure or pen or any other smooth pointed thing, allowing the user accurately calculate the relative position on the strip.
 4. It consists of three layers: **Top layer with silver shunt, Space layer and Bottom layer with conductive carbon**.
 5. Top layer closes the bottom layer when actuated, thus producing a reading. 
 6. It be used as an accurate positional indicator for CNC head positioning, variable user input, straight user input and many other applications.
