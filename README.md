@@ -33,6 +33,7 @@ Testing of Softpot Membrane Potentiometer
 ## Adruino Code and Blynk Setup
 
 Below is the code we put in adruino to get pin 5 to "HIGH".
+{% highlight C linenos %}
   #include <Wire.h>
   #include <ESP8266WiFi.h>
   #include <BlynkSimpleEsp8266.h>
@@ -55,6 +56,7 @@ Below is the code we put in adruino to get pin 5 to "HIGH".
   {
     Blynk.run();
   }
+  {% endhighlight %}
   
 In Blynk, we created a new widget called "Gauge" and gave input as analog ADC0, this is shown in the pictures below.
 
